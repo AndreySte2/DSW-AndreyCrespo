@@ -1,0 +1,115 @@
+
+  
+header{
+    flex-direction: row;
+    height: 100px;
+    background: url(../galeria/TITULO.PNG);
+   background-size:cover;
+
+
+}
+
+h1{
+    color: rgb(170, 23, 184);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+   
+}
+h2{
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    padding-top: 1px; 
+    font-family:'Times New Roman', Times, serif;    
+}
+h3{
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1px; 
+    font-family:'Times New Roman', Times, serif;
+  }
+  h4{
+    color: rgb(3, 3, 3);
+    font-size: 16px;
+    padding-top: 1px; 
+    font-family:'Times New Roman', Times, serif;    
+}
+
+footer{
+    background: sienna;
+    margin: 2px auto;
+    background-size:cover;
+    list-style: none;
+    
+}
+aside{
+
+ 
+    display: inline-block;
+   
+    padding: 60px 15px;
+    background: burlywood;
+}
+article{
+   
+    background: rgb(201, 158, 226);
+   
+  
+    
+}
+
+nav{
+    height: 30px;
+    margin: -16px auto;
+    background-size:cover;
+    overflow: initial;
+    background-color: dimgray;
+    list-style: none;
+   
+  
+
+}
+.menu>li{
+    margin: 2px auto;
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(153, 143, 143);
+
+   
+}
+.menu>li>a {
+    
+    display: block;
+    padding: 2px 20px;
+}
+.menu li a:hover{
+    color: rgb(210, 216, 204);
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: dimgray;
+    opacity: 0;
+}
+.submenu li a{
+    display:  block;
+    padding: 15px;
+    color: rgb(26, 28, 44);
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+
+}
+.pagina>li{
+    margin: 10px auto;
+    display: inline-block;
+    font-size: 20px;  
+    padding: 2px 70px;
+}
+@media screen and (max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+  }
